@@ -1,0 +1,20 @@
+{
+  "characterId": "sato-episode",
+  "name": "サトー",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T13:25:33.156Z",
+  "output": "project/assets/characters/sato-episode.png",
+  "rawOutput": "project/assets/characters/sato-episode.raw.jpg",
+  "referenceImage": "project/assets/characters/sato.png",
+  "fixedSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "prompt": "Create a photorealistic cinematic full-body character portrait for a modern web novel. Preserve silhouette clarity, costume readability, realistic anatomy, realistic fabric texture, and a consistent live-action visual language shared with all other generated assets.\nFull-body portrait of Sato for the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, age, ponytail, mustache, chin beard, and body impression from the canonical portrait. Redesign only the clothing, carry items, and mood to fit an early-April overnight homecoming to a chilly mountain-basin hometown for grave visiting: worn work jacket or field jacket, muted layers, dark denim, leather shoes, compact overnight travel bag, practical but tasteful Americana styling, calm and private expression, realistic Japanese middle-aged man, believable spring cold. Do not include any captions, title text, brand marks, labels, or readable signage anywhere in the frame.\nKeep the whole character visible within frame when possible, especially head, key costume details, hands, silhouette, and signature accessories.\nFinal delivery will be center-cropped to 1080x1920. Keep the face, silhouette, and signature costume details near the center with safe margins.\nNegative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, deformed anatomy, extra limbs, duplicate body parts, cropped head, doll-like face, young idol look, clean-shaven face, short hair, exaggerated bodybuilder muscles, fantasy armor, flashy race costume, office suit, school uniform, anime pretty-boy look, loud streetwear, tourist caricature, captions, subtitle text, logo, readable signage, visible brand print",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/02_characters.md",
+    "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+  ],
+  "responseTexts": []
+}

@@ -1,0 +1,31 @@
+{
+  "episodeId": "scene-003-001-002-sera",
+  "title": "第2節　庭木の陰の侵入者",
+  "chapterTitle": "第3章　無人の家に灯る気配",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:53:10.944Z",
+  "output": "project/assets/episodes/scene-003-001-002-sera.webp",
+  "rawOutput": "project/assets/episodes/scene-003-001-002-sera.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sera-episode.png",
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sera-episode",
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "For this garden-night defense, Sera stays in her default maid-based guardian look.",
+    "Render exactly one Sera in the frame.",
+    "Keep the old family house, maintained garden, porch light, and blue-hour quiet clearly readable as the main mood.",
+    "Prefer not to show Sato at all in this frame.",
+    "If Sato appears at all, keep him inside the house only, not out in the garden.",
+    "If Sato appears, do not show his face or gaze. Only allow a back view or over-the-shoulder silhouette facing into the interior of the house and away from the garden.",
+    "Sato must not look toward Sera, the intruders, or the garden disturbance.",
+    "Do not depict Sato as involved in the struggle or physically close to Sera.",
+    "Keep mailbox plates, nameplates, utility labels, and any house numbers unreadable or out of frame.",
+    "The intruders are anonymous men and must not resemble Sato in face, age impression, hairstyle, or clothes."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第1話　実家の夜. Shared talk background: 杉名地区の実家の庭先. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　庭木の陰の侵入者 / セラパート. Summary: 庭の裏手は、通りから一段だけ遅れて夜になる。セラは物置と生垣のあいだの細い影へ身を寄せ、二人の男の位置を見ていた。ひとりは物置脇で拘束帯と布を確認し、もうひとりは濡れ縁へ近い飛… Key beats: 庭の裏手は、通りから一段だけ遅れて夜になる。セラは物置と生垣のあいだの細い影へ身を寄せ、二人の男の位置を見ていた。ひとりは物置脇で拘束帯と布を確認し、もうひとりは濡れ縁へ近い飛び石の手前で合図を待っている。狙いは、サトーが戸締まりか物音の確認で一歩外へ出た瞬間だった。 無人の家ほど、侵入側は家鳴りを味方だと思い込みやすい。古い庭の金具、木の枝、夜の冷え。どれも少し鳴って当たり前だから、半歩ぶんの異音を混ぜ込みやすい。 物置脇の男が立ち上がるより先に、セラは庭の散水ホースの留め具を一段だけ外した。巻かれていたホースが男の足首へ低く走り、体勢が前へ落ちたところへ、支柱用の結束ベルトを手首ごと物置の取っ手へ通す。声になる前の息だけが、布に短く詰まった。 濡れ縁側の男は反射で踏み込んだ。セラは壁に立ててあった物干し竿を横へ滑らせ、飛び石の間で足を止める。膝が落ちたところへ雨戸用の固定帯を肘から胸元まで回し、縁側の束石へ静かに預けた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this garden-night defense, Sera stays in her default maid-based guardian look. Render exactly one Sera in the frame. Keep the old family house, maintained garden, porch light, and blue-hour quiet clearly readable as the main mood. Prefer not to show Sato at all in this frame. If Sato appears at all, keep him inside the house only, not out in the garden. If Sato appears, do not show his face or gaze. Only allow a back view or over-the-shoulder silhouette facing into the interior of the house and away from the garden. Sato must not look toward Sera, the intruders, or the garden disturbance. Do not depict Sato as involved in the struggle or physically close to Sera. Keep mailbox plates, nameplates, utility labels, and any house numbers unreadable or out of frame. The intruders are anonymous men and must not resemble Sato in face, age impression, hairstyle, or clothes. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  Show exactly one Sera. Prefer no visible Sato. If Sato appears, keep him only as a tiny indoor back-view silhouette facing into the house and away from the confrontation, with no visible face. Preserve the quiet private homecoming mood of the house and garden.",
+  "responseTexts": []
+}

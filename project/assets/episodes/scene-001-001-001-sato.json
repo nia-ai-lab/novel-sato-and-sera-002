@@ -1,0 +1,18 @@
+{
+  "episodeId": "scene-001-001-001-sato",
+  "title": "第1節　ホームで古い仕事を思い出す",
+  "chapterTitle": "第1章　帰省線に乗る朝",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:06:17.009Z",
+  "output": "project/assets/episodes/scene-001-001-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-001-001-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode"
+  ],
+  "continuityNotes": [],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第1話　ホームの発車前. Shared talk background: 東央駅の特急ホーム. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　ホームで古い仕事を思い出す / サトーパート. Summary: 東央駅の長いホームには、通勤帯をひと息抜けた朝の落ち着きがあった。金属の梁の下に特急みねかすみの銀色が静かに収まり、サトーはボストンバッグの持ち手を握り直した。帰省の日は、列車… Key beats: 東央駅の長いホームには、通勤帯をひと息抜けた朝の落ち着きがあった。金属の梁の下に特急みねかすみの銀色が静かに収まり、サトーはボストンバッグの持ち手を握り直した。帰省の日は、列車に乗るまでの手順まで少し丁寧になる。 「こういう朝は、黙って乗るのがいちばんだ」視線を上げれば、ホームの先に乗車位置の印がまっすぐ並んでいる。あとは花を買う駅前まで運んでもらえばいい。墓を参って、一晩だけ家の空気を吸って帰る。今回の帰省は、それで十分だった。 表示板の先で、オレンジのベストを着た男がひとり、足元のケーブルカバーにしゃがみ込んでいた。少し離れたところでは、折りたたみ式の案内板を抱えた別の男が、指定席客らしい人間を見ながら位置を測っている。東央駅くらい大きい駅になると、朝のホームは設備の都合ひとつで景色が変わる。 「朝は案内も大変だな。こういう日は機械の機嫌も悪そうだ」サトーはそう言って、自分の号車位置の印をもう一度見た。特急みねかすみの乗車口は合っているし、発車表示も変わっていない。なら、余計なことはせず、ここで待っているのがいちばん楽だ。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

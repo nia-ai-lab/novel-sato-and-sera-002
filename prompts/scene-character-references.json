@@ -1,0 +1,167 @@
+{
+  "spec": {
+    "globalPrompt": "Create one photorealistic cinematic 16:9 scene image for a modern web novel. Keep the style consistent with the title, character, and talk-level background prompts. Use realistic anatomy, realistic materials, and live-action-like lighting.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, collage, split panel, multiple moments in one frame, deformed anatomy",
+    "fixedWidth": 1920,
+    "fixedHeight": 1080,
+    "outputDir": "project/assets/episodes",
+    "defaultModel": "gemini-3.1-flash-image-preview",
+    "promptSuffix": "Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts."
+  },
+  "characters": [
+    {
+      "id": "sato-episode",
+      "name": "サトー",
+      "aliases": [
+        "佐藤一",
+        "佐藤",
+        "サトーさん"
+      ],
+      "referenceImage": "project/assets/characters/sato-episode.png",
+      "visualRules": "Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette."
+    },
+    {
+      "id": "sera-episode",
+      "name": "セラ",
+      "aliases": [
+        "猫耳メイド",
+        "並走者",
+        "護衛"
+      ],
+      "referenceImage": "project/assets/characters/sera-episode.png",
+      "visualRules": "Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette."
+    },
+    {
+      "id": "sera-vendor",
+      "name": "セラ（売り子偽装）",
+      "aliases": [
+        "売り子",
+        "車内販売",
+        "販売員"
+      ],
+      "referenceImage": "project/assets/characters/sera-vendor.png",
+      "visualRules": "Keep her consistent with the vendor-disguise portrait generated from the canonical Sera image, while preserving the same face, hair, eyes, and cat-ear support-security unit."
+    }
+  ],
+  "sceneOverrides": {
+    "scene-002-001-001-sato": {
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "continuityNotes": [
+        "Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text.",
+        "Show Kirifuse as a chilly but clear local morning rather than a wintry scene."
+      ]
+    },
+    "scene-002-001-002-sera": {
+      "referenceCharacterIds": [
+        "sera-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this shopping-street defense, Sera stays in her default maid-based guardian look rather than any seller disguise.",
+        "Keep storefront signs, crate labels, delivery slips, and back-alley boards unreadable or out of frame.",
+        "Render exactly one Sera in the frame.",
+        "Keep Sato, if visible at all, as a tiny distant passerby near the shopfront, unaware and not looking at Sera.",
+        "Do not depict Sato as restrained, involved in the struggle, or close to Sera in this frame.",
+        "The two enemies are anonymous local workers and must not resemble Sato in face, hairstyle, age impression, or clothes."
+      ],
+      "promptSuffix": "Show exactly one Sera. If Sato appears, keep him tiny and distant in the background. The restrained men are unrelated workers and must not resemble Sato."
+    },
+    "scene-002-002-001-sato": {
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "continuityNotes": [
+        "Keep the communal cemetery municipal and quiet, with many low grave markers across the slope at moderate density rather than a sparse lawn.",
+        "Avoid readable inscriptions on the foreground grave marker by turning the stone, cropping the face, or keeping any carving too small to read."
+      ]
+    },
+    "scene-002-002-002-sera": {
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this cemetery defense, Sera stays in her default maid-based guardian look.",
+        "Keep many low grave markers visible across the slope so the cemetery feels fuller and more active than a sparse park.",
+        "Keep Sato distant and unaware at the grave area while Sera handles the fake maintenance crew off to the side.",
+        "Sato must be turned away from the incident, facing the grave, the town view, or another opposite direction rather than looking toward Sera or the attackers.",
+        "If Sato is visible, prefer a back view or clear side profile facing away from the action.",
+        "Do not include readable maps, warning boards, or vehicle markings."
+      ],
+      "promptSuffix": "If Sato appears in frame, he should be facing away from the confrontation and remain visually uninvolved."
+    },
+    "scene-001-001-002-sera": {
+      "referenceCharacterIds": [
+        "sera-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this platform-side defense, Sera stays in her default maid-based guardian look rather than the onboard seller disguise.",
+        "Match the episode portrait closely: long black overcoat, long dark skirt under the white apron, and no exposed thighs or short-skirt cosplay styling.",
+        "Choose a blind service-side angle that avoids readable station boards, handheld placards, or any other legible text in frame.",
+        "Keep Sato far in the background or off-axis, unaware of the restraint, and not looking toward Sera."
+      ]
+    },
+    "scene-001-002-002-sera": {
+      "referenceCharacterIds": [
+        "sera-vendor"
+      ],
+      "focusCharacterIds": [
+        "sera-vendor"
+      ],
+      "continuityNotes": [
+        "For this train talk, Sera is in her onboard seller disguise rather than her default maid-based look."
+      ]
+    },
+    "scene-003-001-002-sera": {
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this garden-night defense, Sera stays in her default maid-based guardian look.",
+        "Render exactly one Sera in the frame.",
+        "Keep the old family house, maintained garden, porch light, and blue-hour quiet clearly readable as the main mood.",
+        "Prefer not to show Sato at all in this frame.",
+        "If Sato appears at all, keep him inside the house only, not out in the garden.",
+        "If Sato appears, do not show his face or gaze. Only allow a back view or over-the-shoulder silhouette facing into the interior of the house and away from the garden.",
+        "Sato must not look toward Sera, the intruders, or the garden disturbance.",
+        "Do not depict Sato as involved in the struggle or physically close to Sera.",
+        "Keep mailbox plates, nameplates, utility labels, and any house numbers unreadable or out of frame.",
+        "The intruders are anonymous men and must not resemble Sato in face, age impression, hairstyle, or clothes."
+      ],
+      "promptSuffix": "Show exactly one Sera. Prefer no visible Sato. If Sato appears, keep him only as a tiny indoor back-view silhouette facing into the house and away from the confrontation, with no visible face. Preserve the quiet private homecoming mood of the house and garden."
+    },
+    "scene-003-002-002-sera": {
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this departure-road defense, Sera stays in her default maid-based guardian look.",
+        "Render exactly one Sera in the frame.",
+        "Keep Sato near the gate or on the residential lane as a distant unaware figure facing away from the incident.",
+        "If Sato appears, prefer a back view or clear side profile that does not look toward Sera, the attackers, or the white light van.",
+        "Do not depict Sato as restrained, startled, or engaged with the confrontation.",
+        "Keep vehicle plates, clipboard text, delivery labels, and house numbers unreadable or out of frame.",
+        "The two attackers are unrelated men and must not resemble Sato."
+      ],
+      "promptSuffix": "If Sato appears in frame, he must be turned away from Sera and the attackers and remain visually uninvolved."
+    }
+  }
+}

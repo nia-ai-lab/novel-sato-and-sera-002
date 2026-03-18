@@ -1,0 +1,19 @@
+{
+  "id": "talk-002-stage",
+  "name": "特急みねかすみの車内",
+  "talkKey": "chapter-01-talk-02",
+  "chapterLabel": "第1章",
+  "talkLabel": "第2話",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:05:22.444Z",
+  "output": "project/assets/world/talk-002-stage.webp",
+  "rawOutput": "project/assets/world/talk-002-stage.raw.jpg",
+  "prompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets. Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text. Final delivery will be cropped to 1920x1080. Keep the main focal area centered with safe margins and leave enough side information for widescreen composition. Negative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail, combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/01_plot.md",
+    "project/03_worldbuilding.md",
+    "project/04_chapter_outline.md"
+  ],
+  "responseTexts": []
+}

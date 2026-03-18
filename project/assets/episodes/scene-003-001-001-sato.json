@@ -1,0 +1,18 @@
+{
+  "episodeId": "scene-003-001-001-sato",
+  "title": "第1節　庭に残る生活の気配",
+  "chapterTitle": "第3章　無人の家に灯る気配",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:48:48.563Z",
+  "output": "project/assets/episodes/scene-003-001-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-003-001-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode"
+  ],
+  "continuityNotes": [],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第1話　実家の夜. Shared talk background: 杉名地区の実家の庭先. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　庭に残る生活の気配 / サトーパート. Summary: 杉名地区の家へ戻るころには、空は夕方の青みを薄く残したまま沈みかけていた。門扉の蝶番は軽く、庭の飛び石の間に雑草はほとんどない。妹夫婦が今回も手を入れてくれたのだと、玄関へ触れ… Key beats: 杉名地区の家へ戻るころには、空は夕方の青みを薄く残したまま沈みかけていた。門扉の蝶番は軽く、庭の飛び石の間に雑草はほとんどない。妹夫婦が今回も手を入れてくれたのだと、玄関へ触れる前から分かった。 「ちゃんと見てくれてるんだな」鍵を開けると、家の中の空気は古びていても湿っていない。台所の布巾は新しく畳まれ、居間の座布団もきれいに揃っていた。誰も住んでいないはずなのに、放っておかれた感じがしないのがありがたかった。 「一晩泊まるには、これで充分すぎる」荷物を置いて雨戸を少しだけ開ける。庭の隅には小さな青いじょうろと、結び直された支柱が残っていた。誰かの暮らしそのものではないが、手を掛けた時間だけはちゃんとここに残っている。 湯を沸かし、マグカップに茶を入れて縁側の脇へ腰を下ろす。外はもう冷えていたが、家の中までそのまま硬くなるわけではない。古い木の床はしんと静かで、遠くの車の音だけが薄く通る。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

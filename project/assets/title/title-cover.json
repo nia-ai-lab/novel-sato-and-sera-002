@@ -1,0 +1,16 @@
+{
+  "id": "title-cover",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T15:04:35.110Z",
+  "output": "project/assets/title/title-cover.webp",
+  "rawOutput": "project/assets/title/title-cover.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png",
+    "project/assets/characters/sera-vendor.png",
+    "project/assets/world/talk-002-stage.webp",
+    "project/assets/episodes/scene-001-002-001-sato.webp",
+    "project/assets/episodes/scene-001-002-002-sera.webp"
+  ],
+  "prompt": "Create a photorealistic cinematic illustration for a modern web novel. Keep lighting, materials, anatomy, and faces grounded in live-action realism. Maintain a unified realistic visual language across all generated assets. 『おっさんサトーの気ままな帰省 / 猫耳メイドは売り子に化ける』の世界観と読後感が一目で伝わるタイトルビジュアルを生成する。舞台は4月初旬の長距離特急みねかすみの車内。サトーは今回専用のアメカジ寄り帰省服のまま、指定席で落ち着いて座り、故郷へ向かう静かな気分に入っている。セラは今回の売り子差分を使い、車内販売の制服姿で自然に通路やワゴン脇へ立ち、表向きはただの売り子に見えながら、読者には気づかれない護衛の気配がわずかに伝わる構図にする。画面全体は写実的な列車内の落ち着き、春のやわらかな昼光、旅の安心感を優先し、事件現場や戦闘の瞬間にはしない。サトーとセラが同伴者に見える近さにはせず、サトーはくつろいだ乗客、セラは仕事中の売り子として自然に同じ空間へ置く。画像内には作品タイトル、サブタイトル、ロゴ、章話節ラベル、UI文字、クレジットなどの後乗せ文字を入れず、写実的なキービジュアルとして成立させる。 Do not add the novel title, subtitle, chapter labels, logo, UI overlay, or floating credits onto the image. Keep it as a clean key visual. Natural in-world shop signs or street signage may exist if they belong to the background, but they must not be used to display the novel title or subtitle. Final delivery will be cropped to 1920x1080. Keep the important subject matter centered with safe margins and strong widescreen balance. Negative prompt: anime, manga, cel shading, cartoon, illustration with flat shading, text, logo, watermark, collage, split panel, deformed anatomy, low detail face, extra limbs, avoid generic fantasy poster layout, embedded cover title, embedded subtitle, poster logo, floating typography, chapter label overlay, UI overlay, floating credits, melodramatic grieving pose, action-movie explosion, overt fight scene, obvious attack, Sera posing like a companion traveling with Sato, train staff text readable, seat number text readable, embedded cover title, embedded subtitle, poster logo, floating typography, chapter label overlay, UI overlay, floating credits",
+  "responseTexts": []
+}

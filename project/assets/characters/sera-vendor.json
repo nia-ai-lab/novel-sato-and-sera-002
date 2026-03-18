@@ -1,0 +1,20 @@
+{
+  "characterId": "sera-vendor",
+  "name": "セラ",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T13:29:15.536Z",
+  "output": "project/assets/characters/sera-vendor.png",
+  "rawOutput": "project/assets/characters/sera-vendor.raw.jpg",
+  "referenceImage": "project/assets/characters/sera.png",
+  "fixedSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "prompt": "Create a photorealistic cinematic full-body character portrait for a modern web novel. Preserve silhouette clarity, costume readability, realistic anatomy, realistic fabric texture, and a consistent live-action visual language shared with all other generated assets.\nFull-body portrait of Sera for chapter 1 of the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, silver-gray hair, golden eyes, disciplined expression, and visible cat-ear headband support-security unit from the canonical portrait. Redesign only the clothing and practical gear into a believable onboard seller disguise for a limited express train in chilly early April: neat tailored service vest or dress, restrained apron or trolley-service details, practical shoes, elegant posture, subtle hidden restraint tools, still faintly maid-inspired in structure, capable and composed. Do not add a coat, trench coat, cardigan, shawl, cape, or any extra outer layer; the vendor uniform alone must define the silhouette. Any sales trolley or carried goods must be plain and unbranded, with no readable labels, printed packaging, route names, or service text anywhere in the frame.\nKeep the whole character visible within frame when possible, especially head, key costume details, hands, silhouette, and signature accessories.\nFinal delivery will be center-cropped to 1080x1920. Keep the face, silhouette, and signature costume details near the center with safe margins.\nNegative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, deformed anatomy, extra limbs, duplicate body parts, cropped head, doll-like face, oversexualized maid, tactical armor, combat bodysuit, sci-fi combat suit, comedy chibi style, soft helpless expression, anime heroine look, doll face, giant visible weapons, indoor maid dress, fantasy waitress costume, revealing cosplay, logo, readable text, printed labels, branded cart, route sign, coat, trench coat, cardigan, cape, shawl, outerwear layer",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/02_characters.md",
+    "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+  ],
+  "responseTexts": []
+}

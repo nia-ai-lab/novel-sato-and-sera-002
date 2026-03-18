@@ -1,0 +1,20 @@
+{
+  "episodeId": "scene-001-002-001-sato",
+  "title": "第1節　指定席でひと息つく",
+  "chapterTitle": "第1章　帰省線に乗る朝",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:06:51.778Z",
+  "output": "project/assets/episodes/scene-001-002-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-001-002-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png",
+    "project/assets/characters/sera-vendor.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode",
+    "sera-vendor"
+  ],
+  "continuityNotes": [],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第2話　車窓と売り子. Shared talk background: 特急みねかすみの車内. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　指定席でひと息つく / サトーパート. Summary: 発車してしばらくすると、車内の空気はホームのざわめきをきれいに切り離していた。サトーはボストンバッグを網棚に上げ、深く座席へ腰を沈めた。背もたれが背中の形に沿ってくるだけで、遠… Key beats: 発車してしばらくすると、車内の空気はホームのざわめきをきれいに切り離していた。サトーはボストンバッグを網棚に上げ、深く座席へ腰を沈めた。背もたれが背中の形に沿ってくるだけで、遠出の半分は済んだような気がする。 「やっぱり特急はいいな。座った途端に、もう半分帰った気になる」窓の外では、春になり切る手前の色がゆっくり後ろへ流れていく。白く乾いた川原、まだ薄い畑、背の低い家並み。そのどれもが東京の中ではもう見えにくい速度で、穏やかに遠ざかっていった。 「着いたら、まず花だな」霧伏町の駅前を思い出しながら、サトーは窓の外へ目をやった。花を買って、そのまま墓地へ上がる。妹夫婦とは今回は都合が合わないが、家の風くらいはきちんと入れ替わっているだろうと考えると、それで十分な気がした。 車内販売のワゴンが見えたので、サトーは通路側へ少し膝を引いた。静かな声で注文を促され、彼は紙カップの並ぶ棚を見てから目を上げる。「コーヒーをひとつ。砂糖は無しで」。短いやり取りだけで、旅の輪郭がもうひとつ整った。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. sera-vendor: セラ（売り子偽装）. Keep her consistent with the vendor-disguise portrait generated from the canonical Sera image, while preserving the same face, hair, eyes, and cat-ear support-security unit. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

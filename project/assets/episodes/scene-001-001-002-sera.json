@@ -1,0 +1,25 @@
+{
+  "episodeId": "scene-001-001-002-sera",
+  "title": "第2節　偽誘導の通路を閉じる",
+  "chapterTitle": "第1章　帰省線に乗る朝",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:06:10.753Z",
+  "output": "project/assets/episodes/scene-001-001-002-sera.webp",
+  "rawOutput": "project/assets/episodes/scene-001-001-002-sera.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sera-episode.png",
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sera-episode",
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "For this platform-side defense, Sera stays in her default maid-based guardian look rather than the onboard seller disguise.",
+    "Match the episode portrait closely: long black overcoat, long dark skirt under the white apron, and no exposed thighs or short-skirt cosplay styling.",
+    "Choose a blind service-side angle that avoids readable station boards, handheld placards, or any other legible text in frame.",
+    "Keep Sato far in the background or off-axis, unaware of the restraint, and not looking toward Sera."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第1話　ホームの発車前. Shared talk background: 東央駅の特急ホーム. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　偽誘導の通路を閉じる / セラパート. Summary: 東央駅第八ホームの支柱の陰から、セラは二人の男の動きを順に見ていた。片方は偽の保守タグを下げ、もう片方は臨時案内板と折りたたみバリアを持っている。狙いは単純だった。サトーを本来… Key beats: 東央駅第八ホームの支柱の陰から、セラは二人の男の動きを順に見ていた。片方は偽の保守タグを下げ、もう片方は臨時案内板と折りたたみバリアを持っている。狙いは単純だった。サトーを本来の乗車列から半歩だけ外し、その先の業務通路へ切り分ける。 駅の朝は、人が多いわりに視線が散る。発車前の乗客は自分の荷物と表示しか見ないし、現場の職員は定刻の維持で手いっぱいだ。だからこそ、偽物はほんの数十秒だけ本物らしく立てば足りる。 案内板の男が出るより一拍早く、セラは止めてあった清掃用カートのブレーキを外した。重いカートは低い音を立てて業務扉の前へ滑り、ケーブルカバーにしゃがんでいた男の膝先へぶつかる。男が反射で体勢を起こした瞬間、セラは伸縮ベルトをその前腕と手すりに巻き付けた。 案内板を持つ男の肘を外側へ払う。男が紙を差し出そうとした勢いのまま支柱へ寄ったところに、セラは肩を入れ、胸元を見せない角度で体を反転させた。制服の下に隠していた細い拘束具が一度鳴り、男の両手首は背中側でひとつになった。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this platform-side defense, Sera stays in her default maid-based guardian look rather than the onboard seller disguise. Match the episode portrait closely: long black overcoat, long dark skirt under the white apron, and no exposed thighs or short-skirt cosplay styling. Choose a blind service-side angle that avoids readable station boards, handheld placards, or any other legible text in frame. Keep Sato far in the background or off-axis, unaware of the restraint, and not looking toward Sera. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

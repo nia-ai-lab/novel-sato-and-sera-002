@@ -1,0 +1,27 @@
+{
+  "episodeId": "scene-002-001-002-sera",
+  "title": "第2節　荷捌き口の死角",
+  "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:22:24.099Z",
+  "output": "project/assets/episodes/scene-002-001-002-sera.webp",
+  "rawOutput": "project/assets/episodes/scene-002-001-002-sera.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sera-episode.png",
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sera-episode",
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "For this shopping-street defense, Sera stays in her default maid-based guardian look rather than any seller disguise.",
+    "Keep storefront signs, crate labels, delivery slips, and back-alley boards unreadable or out of frame.",
+    "Render exactly one Sera in the frame.",
+    "Keep Sato, if visible at all, as a tiny distant passerby near the shopfront, unaware and not looking at Sera.",
+    "Do not depict Sato as restrained, involved in the struggle, or close to Sera in this frame.",
+    "The two enemies are anonymous local workers and must not resemble Sato in face, hairstyle, age impression, or clothes."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第1話　花を買う商店街. Shared talk background: 霧伏駅前商店街と花屋. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　荷捌き口の死角 / セラパート. Summary: 駅前商店街の朝は、客よりも搬入の台車が先に音を作る。セラは花屋の脇道に積まれた空箱の陰から、二人の男の立ち位置を見ていた。軽トラックの荷台は空で、伝票の束には店名が入っていない… Key beats: 駅前商店街の朝は、客よりも搬入の台車が先に音を作る。セラは花屋の脇道に積まれた空箱の陰から、二人の男の立ち位置を見ていた。軽トラックの荷台は空で、伝票の束には店名が入っていない。狙いは供花の受け渡しを口実に、サトーを搬入口の奥へ折ることだった。 店先の客に声を掛ける役と、裏の勝手口で受ける役。地方の花屋は親切が導線になりやすい。墓参りの客ほど急がず、言われるまま裏へ回る。だからこそ、偽物は荷札より先に態度だけを本物へ寄せてくる。 男が「裏でまとめて」と声を張るより半歩先に、セラは給水用ホースのコックを開いた。細い水が台車の車輪の前へ走り、帽子の男が足元を見た瞬間、セラは車止めを外した花桶ラックを押し出す。重みのある車輪が男の脛を止め、そのまま膝を折らせた。 入口脇の男はとっさに店内へ踏み込もうとした。セラは包装紙の束を抱えたまま体を入れ替え、肘を外へ逃がしながら肩だけで向きを変える。花束用の平紐が一息で両手首をまとめ、男の体は陳列台の脚へ静かにもたれた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this shopping-street defense, Sera stays in her default maid-based guardian look rather than any seller disguise. Keep storefront signs, crate labels, delivery slips, and back-alley boards unreadable or out of frame. Render exactly one Sera in the frame. Keep Sato, if visible at all, as a tiny distant passerby near the shopfront, unaware and not looking at Sera. Do not depict Sato as restrained, involved in the struggle, or close to Sera in this frame. The two enemies are anonymous local workers and must not resemble Sato in face, hairstyle, age impression, or clothes. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  Show exactly one Sera. If Sato appears, keep him tiny and distant in the background. The restrained men are unrelated workers and must not resemble Sato.",
+  "responseTexts": []
+}

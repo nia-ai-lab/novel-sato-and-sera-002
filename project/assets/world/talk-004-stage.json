@@ -1,0 +1,19 @@
+{
+  "id": "talk-004-stage",
+  "name": "静輪台共同墓地の高台",
+  "talkKey": "chapter-02-talk-02",
+  "chapterLabel": "第2章",
+  "talkLabel": "第2話",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:25:07.069Z",
+  "output": "project/assets/world/talk-004-stage.webp",
+  "rawOutput": "project/assets/world/talk-004-stage.raw.jpg",
+  "prompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets. Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park. Final delivery will be cropped to 1920x1080. Keep the main focal area centered with safe margins and leave enough side information for widescreen composition. Negative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail, combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat, temple gate, shrine, pagoda, tall crowded grave stones, dense vertical cemetery, narrow packed burial rows, empty lawn with only a few graves",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/01_plot.md",
+    "project/03_worldbuilding.md",
+    "project/04_chapter_outline.md"
+  ],
+  "responseTexts": []
+}

@@ -1,0 +1,27 @@
+{
+  "episodeId": "scene-002-002-002-sera",
+  "title": "第2節　斜面通路の封じ手",
+  "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:30:07.051Z",
+  "output": "project/assets/episodes/scene-002-002-002-sera.webp",
+  "rawOutput": "project/assets/episodes/scene-002-002-002-sera.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sera-episode.png",
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sera-episode",
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "For this cemetery defense, Sera stays in her default maid-based guardian look.",
+    "Keep many low grave markers visible across the slope so the cemetery feels fuller and more active than a sparse park.",
+    "Keep Sato distant and unaware at the grave area while Sera handles the fake maintenance crew off to the side.",
+    "Sato must be turned away from the incident, facing the grave, the town view, or another opposite direction rather than looking toward Sera or the attackers.",
+    "If Sato is visible, prefer a back view or clear side profile facing away from the action.",
+    "Do not include readable maps, warning boards, or vehicle markings."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第2話　高台の共同墓地. Shared talk background: 静輪台共同墓地の高台. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　斜面通路の封じ手 / セラパート. Summary: 共同墓地の上段は、風が抜けるぶん足音も散る。セラは管理水栓の陰から、偽の区画管理員二人を見ていた。ひとりは反射ベストと区画図、もうひとりは外周路の曲がり角で空の手押し車を持つ。… Key beats: 共同墓地の上段は、風が抜けるぶん足音も散る。セラは管理水栓の陰から、偽の区画管理員二人を見ていた。ひとりは反射ベストと区画図、もうひとりは外周路の曲がり角で空の手押し車を持つ。目的は簡単で、サトーを見通しの切れる外周の砂利道へ回し、その先の作業車脇で囲うことだった。 市営墓地は寺より親切だ。案内があれば人は従いやすく、柵とコーンがひとつあるだけで通路の意味が変わる。まして墓参りの客は静かに済ませたい。面倒を避けるほど、偽物には都合がいい。 区画図を持つ男が次の声掛けに向く前に、セラは水替え用の小型台車を斜面へそっと放した。空の台車は砂利を短く鳴らして男の足首へ当たり、体勢を崩したところへ、セラは進入規制用のベルトを手首ごと柵に通す。男が声を上げるより早く、喉元ではなく胸の前だけを押して支柱へ預けた。 外周の曲がり角にいたもうひとりは無線へ手を伸ばした。セラは長柄のほうきを横から滑らせ、手首を外へ払って端末を落とす。拾わせる前に肩を沈めて膝裏を崩し、管理用ホースの巻き取り帯で両腕をまとめた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this cemetery defense, Sera stays in her default maid-based guardian look. Keep many low grave markers visible across the slope so the cemetery feels fuller and more active than a sparse park. Keep Sato distant and unaware at the grave area while Sera handles the fake maintenance crew off to the side. Sato must be turned away from the incident, facing the grave, the town view, or another opposite direction rather than looking toward Sera or the attackers. If Sato is visible, prefer a back view or clear side profile facing away from the action. Do not include readable maps, warning boards, or vehicle markings. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  If Sato appears in frame, he should be facing away from the confrontation and remain visually uninvolved.",
+  "responseTexts": []
+}

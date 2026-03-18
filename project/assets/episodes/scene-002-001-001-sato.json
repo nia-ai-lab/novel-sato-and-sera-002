@@ -1,0 +1,21 @@
+{
+  "episodeId": "scene-002-001-001-sato",
+  "title": "第1節　地元の春はまだ遠い",
+  "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:17:53.274Z",
+  "output": "project/assets/episodes/scene-002-001-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-002-001-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text.",
+    "Show Kirifuse as a chilly but clear local morning rather than a wintry scene."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第1話　花を買う商店街. Shared talk background: 霧伏駅前商店街と花屋. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　地元の春はまだ遠い / サトーパート. Summary: 霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところ… Key beats: 霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところから、そのまま降りてくるようだった。 「やっぱり、こっちは一枚違うな」ホームの端から見える山筋はまだ薄く白く、駅前の空だけが先に春を名乗っている。こういうちぐはぐさまで含めて、霧伏へ帰ってきた感じがする。 改札を抜けると、駅前商店街は低い軒先を並べたまま、朝の光を素直に受けていた。花屋の店先には白い菊と淡い色のカーネーションが水を張ったバケツに立ち、湿った甘さが冷えた空気の中でよく通る。先に花を買ってしまえば、あとは墓地へ上がるだけだ。 「花だけ済ませれば、今日はもう半分終わりだ」店先の脇では、台車に積まれた段ボールと水桶が歩道を半分ほど使っていた。帽子を深くかぶった男がひとり、荷札も見せずに脇道へ台車を引き込み、もうひとりは作業手袋のまま入口の客を気にしている。朝の花屋は表より裏が忙しいのだろうと、サトーはその程度に受け取った。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Continuity notes: Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text. Show Kirifuse as a chilly but clear local morning rather than a wintry scene. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

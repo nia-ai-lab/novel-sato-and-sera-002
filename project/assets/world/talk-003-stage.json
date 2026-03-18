@@ -1,0 +1,19 @@
+{
+  "id": "talk-003-stage",
+  "name": "霧伏駅前商店街と花屋",
+  "talkKey": "chapter-02-talk-01",
+  "chapterLabel": "第2章",
+  "talkLabel": "第1話",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T13:23:01.120Z",
+  "output": "project/assets/world/talk-003-stage.webp",
+  "rawOutput": "project/assets/world/talk-003-stage.raw.jpg",
+  "prompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets. Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs. Final delivery will be cropped to 1920x1080. Keep the main focal area centered with safe margins and leave enough side information for widescreen composition. Negative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail, combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/01_plot.md",
+    "project/03_worldbuilding.md",
+    "project/04_chapter_outline.md"
+  ],
+  "responseTexts": []
+}

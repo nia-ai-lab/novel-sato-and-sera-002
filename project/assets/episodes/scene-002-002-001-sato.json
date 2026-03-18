@@ -1,0 +1,21 @@
+{
+  "episodeId": "scene-002-002-001-sato",
+  "title": "第1節　見晴らしのある墓前",
+  "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:26:21.442Z",
+  "output": "project/assets/episodes/scene-002-002-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-002-002-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode"
+  ],
+  "continuityNotes": [
+    "Keep the communal cemetery municipal and quiet, with many low grave markers across the slope at moderate density rather than a sparse lawn.",
+    "Avoid readable inscriptions on the foreground grave marker by turning the stone, cropping the face, or keeping any carving too small to read."
+  ],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第2話　高台の共同墓地. Shared talk background: 静輪台共同墓地の高台. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　見晴らしのある墓前 / サトーパート. Summary: 静輪台共同墓地へ上がる坂は、駅前よりさらに風が細かった。紙に包んだ花を抱え直すたび、指先に残っていた冷えが今度は手の甲まで広がっていく。低い墓石がゆるく斜面に並び、その向こうに… Key beats: 静輪台共同墓地へ上がる坂は、駅前よりさらに風が細かった。紙に包んだ花を抱え直すたび、指先に残っていた冷えが今度は手の甲まで広がっていく。低い墓石がゆるく斜面に並び、その向こうに霧伏の町と遠い山並みが薄く開けていた。 「ここまで来ると、さすがにちゃんと冷たいな」息を深く吸うと、乾いた土と石の匂いが胸に落ちた。寺の鐘もない市営墓地は、来るたびに少しだけ広く見える。余計な音が少ないぶん、風の通り方までよく分かった。 来る途中、区画の分かれ目に折りたたみ柵とカラーコーンが出ていた。反射ベストの男が区画図を持ち、上段へ向かう人間を外周の砂利道へ流そうとしている。春先は補修や草刈りの前準備もあるのだろうと、サトーは中央の通路が空いているのを見てそのままいつもの段を上がった。 「静かに済むなら、そのほうがありがたい」両親の墓の前でしゃがみ込み、水を替え、花の高さを揃える。白を中心にして淡い色を少しだけ混ぜてもらったのは正解だった。派手ではないが、風の中ではそのくらいのほうが落ち着く。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Continuity notes: Keep the communal cemetery municipal and quiet, with many low grave markers across the slope at moderate density rather than a sparse lawn. Avoid readable inscriptions on the foreground grave marker by turning the stone, cropping the face, or keeping any carving too small to read. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

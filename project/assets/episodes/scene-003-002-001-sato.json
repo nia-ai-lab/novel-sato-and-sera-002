@@ -1,0 +1,18 @@
+{
+  "episodeId": "scene-003-002-001-sato",
+  "title": "第1節　朝の冷気と出立",
+  "chapterTitle": "第3章　無人の家に灯る気配",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:49:39.978Z",
+  "output": "project/assets/episodes/scene-003-002-001-sato.webp",
+  "rawOutput": "project/assets/episodes/scene-003-002-001-sato.raw.jpg",
+  "referenceImages": [
+    "project/assets/characters/sato-episode.png"
+  ],
+  "referenceCharacterIds": [
+    "sato-episode"
+  ],
+  "continuityNotes": [],
+  "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第2話　翌朝の戸締まり. Shared talk background: 翌朝の実家前の道. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　朝の冷気と出立 / サトーパート. Summary: 翌朝、障子越しの光は思ったより白かった。布団を畳み、使った湯呑みを洗い、各部屋の窓を順に閉めていくと、一晩だけ借りた家の中が少しずつ元の静けさへ戻っていく。短い滞在でも、朝の手… Key beats: 翌朝、障子越しの光は思ったより白かった。布団を畳み、使った湯呑みを洗い、各部屋の窓を順に閉めていくと、一晩だけ借りた家の中が少しずつ元の静けさへ戻っていく。短い滞在でも、朝の手順まで済ませると帰省はちゃんと形になる。 「一晩でも泊まると、家の音が戻るな」廊下のきしみも、洗面台の蛇口の重さも、昨夜より手に馴染んでいた。台所の隅には新しいスポンジが置かれ、玄関のたたきには泥の跡ひとつない。今回も世話になったと、顔の見えない妹夫婦へ心の中だけで頭を下げる。 庭へ出ると、朝の空気は墓地より少しやわらかいが、それでも東京よりは細い。植木の刈り込みは揃い、門柱の下に置かれたほうきも乾いていた。昨日の夜に聞いた物音の気配は、庭のどこにも残っていない。 「鍵を掛けると、ちゃんと帰った感じがする」玄関を閉め、戸締まりをひとつずつ確かめる。坂の下では白い軽ワゴンがしばらく停まり、作業着の男がクリップボードを持ったまま通りを見ていた。送迎か荷物回収か、あるいは朝の工事の段取りかもしれない。駅へ向かう道さえ空いていれば、そのくらいはどうでもよかった。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+  "responseTexts": []
+}

@@ -1,0 +1,404 @@
+{
+  "spec": {
+    "fixedWidth": 1920,
+    "fixedHeight": 1080,
+    "outputDir": "project/assets/episodes",
+    "globalPrompt": "Create one photorealistic cinematic 16:9 scene image for a modern web novel. Keep the style consistent with the title, character, and talk-level background prompts. Use realistic anatomy, realistic materials, and live-action-like lighting.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, collage, split panel, multiple moments in one frame, deformed anatomy",
+    "defaultModel": "gemini-3.1-flash-image-preview",
+    "promptSuffix": "Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts."
+  },
+  "source": {
+    "storyData": "docs/story-data.js",
+    "characterReferences": "prompts/scene-character-references.json",
+    "backgroundPrompts": "prompts/background-concepts.json"
+  },
+  "episodes": [
+    {
+      "id": "scene-001-001-001-sato",
+      "title": "第1節　ホームで古い仕事を思い出す",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第1章　帰省線に乗る朝",
+      "chapterLabel": "第1章",
+      "talkKey": "chapter-01-talk-01",
+      "talkTitle": "第1話　ホームの発車前",
+      "talkLabel": "第1話",
+      "sourceSummary": "東央駅の長いホームには、通勤帯をひと息抜けた朝の落ち着きがあった。金属の梁の下に特急みねかすみの銀色が静かに収まり、サトーはボストンバッグの持ち手を握り直した。帰省の日は、列車…",
+      "cast": [
+        "sato-episode"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "backgroundPromptId": "talk-001-stage",
+      "backgroundPromptName": "東央駅の特急ホーム",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第1話　ホームの発車前. Shared talk background: 東央駅の特急ホーム. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　ホームで古い仕事を思い出す / サトーパート. Summary: 東央駅の長いホームには、通勤帯をひと息抜けた朝の落ち着きがあった。金属の梁の下に特急みねかすみの銀色が静かに収まり、サトーはボストンバッグの持ち手を握り直した。帰省の日は、列車… Key beats: 東央駅の長いホームには、通勤帯をひと息抜けた朝の落ち着きがあった。金属の梁の下に特急みねかすみの銀色が静かに収まり、サトーはボストンバッグの持ち手を握り直した。帰省の日は、列車に乗るまでの手順まで少し丁寧になる。 「こういう朝は、黙って乗るのがいちばんだ」視線を上げれば、ホームの先に乗車位置の印がまっすぐ並んでいる。あとは花を買う駅前まで運んでもらえばいい。墓を参って、一晩だけ家の空気を吸って帰る。今回の帰省は、それで十分だった。 表示板の先で、オレンジのベストを着た男がひとり、足元のケーブルカバーにしゃがみ込んでいた。少し離れたところでは、折りたたみ式の案内板を抱えた別の男が、指定席客らしい人間を見ながら位置を測っている。東央駅くらい大きい駅になると、朝のホームは設備の都合ひとつで景色が変わる。 「朝は案内も大変だな。こういう日は機械の機嫌も悪そうだ」サトーはそう言って、自分の号車位置の印をもう一度見た。特急みねかすみの乗車口は合っているし、発車表示も変わっていない。なら、余計なことはせず、ここで待っているのがいちばん楽だ。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-001-001-sato.webp"
+    },
+    {
+      "id": "scene-001-001-002-sera",
+      "title": "第2節　偽誘導の通路を閉じる",
+      "partLabel": "セラパート",
+      "chapterTitle": "第1章　帰省線に乗る朝",
+      "chapterLabel": "第1章",
+      "talkKey": "chapter-01-talk-01",
+      "talkTitle": "第1話　ホームの発車前",
+      "talkLabel": "第1話",
+      "sourceSummary": "東央駅第八ホームの支柱の陰から、セラは二人の男の動きを順に見ていた。片方は偽の保守タグを下げ、もう片方は臨時案内板と折りたたみバリアを持っている。狙いは単純だった。サトーを本来…",
+      "cast": [
+        "sato-episode",
+        "sera-episode"
+      ],
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this platform-side defense, Sera stays in her default maid-based guardian look rather than the onboard seller disguise.",
+        "Match the episode portrait closely: long black overcoat, long dark skirt under the white apron, and no exposed thighs or short-skirt cosplay styling.",
+        "Choose a blind service-side angle that avoids readable station boards, handheld placards, or any other legible text in frame.",
+        "Keep Sato far in the background or off-axis, unaware of the restraint, and not looking toward Sera."
+      ],
+      "backgroundPromptId": "talk-001-stage",
+      "backgroundPromptName": "東央駅の特急ホーム",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第1話　ホームの発車前. Shared talk background: 東央駅の特急ホーム. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　偽誘導の通路を閉じる / セラパート. Summary: 東央駅第八ホームの支柱の陰から、セラは二人の男の動きを順に見ていた。片方は偽の保守タグを下げ、もう片方は臨時案内板と折りたたみバリアを持っている。狙いは単純だった。サトーを本来… Key beats: 東央駅第八ホームの支柱の陰から、セラは二人の男の動きを順に見ていた。片方は偽の保守タグを下げ、もう片方は臨時案内板と折りたたみバリアを持っている。狙いは単純だった。サトーを本来の乗車列から半歩だけ外し、その先の業務通路へ切り分ける。 駅の朝は、人が多いわりに視線が散る。発車前の乗客は自分の荷物と表示しか見ないし、現場の職員は定刻の維持で手いっぱいだ。だからこそ、偽物はほんの数十秒だけ本物らしく立てば足りる。 案内板の男が出るより一拍早く、セラは止めてあった清掃用カートのブレーキを外した。重いカートは低い音を立てて業務扉の前へ滑り、ケーブルカバーにしゃがんでいた男の膝先へぶつかる。男が反射で体勢を起こした瞬間、セラは伸縮ベルトをその前腕と手すりに巻き付けた。 案内板を持つ男の肘を外側へ払う。男が紙を差し出そうとした勢いのまま支柱へ寄ったところに、セラは肩を入れ、胸元を見せない角度で体を反転させた。制服の下に隠していた細い拘束具が一度鳴り、男の両手首は背中側でひとつになった。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this platform-side defense, Sera stays in her default maid-based guardian look rather than the onboard seller disguise. Match the episode portrait closely: long black overcoat, long dark skirt under the white apron, and no exposed thighs or short-skirt cosplay styling. Choose a blind service-side angle that avoids readable station boards, handheld placards, or any other legible text in frame. Keep Sato far in the background or off-axis, unaware of the restraint, and not looking toward Sera. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-001-002-sera.webp"
+    },
+    {
+      "id": "scene-001-002-001-sato",
+      "title": "第1節　指定席でひと息つく",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第1章　帰省線に乗る朝",
+      "chapterLabel": "第1章",
+      "talkKey": "chapter-01-talk-02",
+      "talkTitle": "第2話　車窓と売り子",
+      "talkLabel": "第2話",
+      "sourceSummary": "発車してしばらくすると、車内の空気はホームのざわめきをきれいに切り離していた。サトーはボストンバッグを網棚に上げ、深く座席へ腰を沈めた。背もたれが背中の形に沿ってくるだけで、遠…",
+      "cast": [
+        "sato-episode",
+        "sera-vendor"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode",
+        "sera-vendor"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "backgroundPromptId": "talk-002-stage",
+      "backgroundPromptName": "特急みねかすみの車内",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第2話　車窓と売り子. Shared talk background: 特急みねかすみの車内. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　指定席でひと息つく / サトーパート. Summary: 発車してしばらくすると、車内の空気はホームのざわめきをきれいに切り離していた。サトーはボストンバッグを網棚に上げ、深く座席へ腰を沈めた。背もたれが背中の形に沿ってくるだけで、遠… Key beats: 発車してしばらくすると、車内の空気はホームのざわめきをきれいに切り離していた。サトーはボストンバッグを網棚に上げ、深く座席へ腰を沈めた。背もたれが背中の形に沿ってくるだけで、遠出の半分は済んだような気がする。 「やっぱり特急はいいな。座った途端に、もう半分帰った気になる」窓の外では、春になり切る手前の色がゆっくり後ろへ流れていく。白く乾いた川原、まだ薄い畑、背の低い家並み。そのどれもが東京の中ではもう見えにくい速度で、穏やかに遠ざかっていった。 「着いたら、まず花だな」霧伏町の駅前を思い出しながら、サトーは窓の外へ目をやった。花を買って、そのまま墓地へ上がる。妹夫婦とは今回は都合が合わないが、家の風くらいはきちんと入れ替わっているだろうと考えると、それで十分な気がした。 車内販売のワゴンが見えたので、サトーは通路側へ少し膝を引いた。静かな声で注文を促され、彼は紙カップの並ぶ棚を見てから目を上げる。「コーヒーをひとつ。砂糖は無しで」。短いやり取りだけで、旅の輪郭がもうひとつ整った。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. sera-vendor: セラ（売り子偽装）. Keep her consistent with the vendor-disguise portrait generated from the canonical Sera image, while preserving the same face, hair, eyes, and cat-ear support-security unit. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-002-001-sato.webp"
+    },
+    {
+      "id": "scene-001-002-002-sera",
+      "title": "第2節　売り子に化ける",
+      "partLabel": "セラパート",
+      "chapterTitle": "第1章　帰省線に乗る朝",
+      "chapterLabel": "第1章",
+      "talkKey": "chapter-01-talk-02",
+      "talkTitle": "第2話　車窓と売り子",
+      "talkLabel": "第2話",
+      "sourceSummary": "販売用の制服に着替え、セラはワゴンの取っ手を静かに握った。今回の車内導線は単純で、だからこそ厄介だった。狭い通路、定まった販売順路、乗客が立ち上がる理由まで読みやすい。敵はそこ…",
+      "cast": [
+        "sato-episode",
+        "sera-episode",
+        "sera-vendor"
+      ],
+      "referenceCharacterIds": [
+        "sera-vendor",
+        "sato-episode",
+        "sera-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-vendor"
+      ],
+      "continuityNotes": [
+        "For this train talk, Sera is in her onboard seller disguise rather than her default maid-based look."
+      ],
+      "backgroundPromptId": "talk-002-stage",
+      "backgroundPromptName": "特急みねかすみの車内",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　帰省線に乗る朝 / 第2話　車窓と売り子. Shared talk background: 特急みねかすみの車内. Background reference prompt: Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　売り子に化ける / セラパート. Summary: 販売用の制服に着替え、セラはワゴンの取っ手を静かに握った。今回の車内導線は単純で、だからこそ厄介だった。狭い通路、定まった販売順路、乗客が立ち上がる理由まで読みやすい。敵はそこ… Key beats: 販売用の制服に着替え、セラはワゴンの取っ手を静かに握った。今回の車内導線は単純で、だからこそ厄介だった。狭い通路、定まった販売順路、乗客が立ち上がる理由まで読みやすい。敵はそこへ、飲み物より先に眠気を運び込もうとしていた。 最初に見つけたのは、デッキ脇の補助スペースで待っていた男だった。販売補助を装うには靴が静かすぎ、指先は紙カップではなく小さなカプセルへ向いている。セラはワゴンを寄せ、棚に手を入れようとしたその手首を、金属の縁と固定バーのあいだへ滑らせた。 男の肩が跳ねた瞬間に、セラは体を半歩だけ入れ替えた。ワゴンの陰で膝を崩させ、荷締め用の細い帯を両手首へ回す。音は車輪のきしみより小さく、それで十分だった。 もうひとりは、通路側の席から立ち上がる役だった。サトーが飲み物をこぼした拍子に手伝うふりをして、デッキへ引き寄せる。セラはワゴンを押し出すふりでその進路へ下段の棚を差し込み、男の脛を止めた。 Use the supplied character reference images to preserve these canonical looks: sera-vendor: セラ（売り子偽装）. Keep her consistent with the vendor-disguise portrait generated from the canonical Sera image, while preserving the same face, hair, eyes, and cat-ear support-security unit. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-vendor. Keep them clearly readable in the foreground or midground. Continuity notes: For this train talk, Sera is in her onboard seller disguise rather than her default maid-based look. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-002-002-sera.webp"
+    },
+    {
+      "id": "scene-002-001-001-sato",
+      "title": "第1節　地元の春はまだ遠い",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+      "chapterLabel": "第2章",
+      "talkKey": "chapter-02-talk-01",
+      "talkTitle": "第1話　花を買う商店街",
+      "talkLabel": "第1話",
+      "sourceSummary": "霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところ…",
+      "cast": [
+        "sato-episode"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [
+        "Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text.",
+        "Show Kirifuse as a chilly but clear local morning rather than a wintry scene."
+      ],
+      "backgroundPromptId": "talk-003-stage",
+      "backgroundPromptName": "霧伏駅前商店街と花屋",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第1話　花を買う商店街. Shared talk background: 霧伏駅前商店街と花屋. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　地元の春はまだ遠い / サトーパート. Summary: 霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところ… Key beats: 霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところから、そのまま降りてくるようだった。 「やっぱり、こっちは一枚違うな」ホームの端から見える山筋はまだ薄く白く、駅前の空だけが先に春を名乗っている。こういうちぐはぐさまで含めて、霧伏へ帰ってきた感じがする。 改札を抜けると、駅前商店街は低い軒先を並べたまま、朝の光を素直に受けていた。花屋の店先には白い菊と淡い色のカーネーションが水を張ったバケツに立ち、湿った甘さが冷えた空気の中でよく通る。先に花を買ってしまえば、あとは墓地へ上がるだけだ。 「花だけ済ませれば、今日はもう半分終わりだ」店先の脇では、台車に積まれた段ボールと水桶が歩道を半分ほど使っていた。帽子を深くかぶった男がひとり、荷札も見せずに脇道へ台車を引き込み、もうひとりは作業手袋のまま入口の客を気にしている。朝の花屋は表より裏が忙しいのだろうと、サトーはその程度に受け取った。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Continuity notes: Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text. Show Kirifuse as a chilly but clear local morning rather than a wintry scene. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-001-001-sato.webp"
+    },
+    {
+      "id": "scene-002-001-002-sera",
+      "title": "第2節　荷捌き口の死角",
+      "partLabel": "セラパート",
+      "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+      "chapterLabel": "第2章",
+      "talkKey": "chapter-02-talk-01",
+      "talkTitle": "第1話　花を買う商店街",
+      "talkLabel": "第1話",
+      "sourceSummary": "駅前商店街の朝は、客よりも搬入の台車が先に音を作る。セラは花屋の脇道に積まれた空箱の陰から、二人の男の立ち位置を見ていた。軽トラックの荷台は空で、伝票の束には店名が入っていない…",
+      "cast": [
+        "sato-episode",
+        "sera-episode"
+      ],
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this shopping-street defense, Sera stays in her default maid-based guardian look rather than any seller disguise.",
+        "Keep storefront signs, crate labels, delivery slips, and back-alley boards unreadable or out of frame.",
+        "Render exactly one Sera in the frame.",
+        "Keep Sato, if visible at all, as a tiny distant passerby near the shopfront, unaware and not looking at Sera.",
+        "Do not depict Sato as restrained, involved in the struggle, or close to Sera in this frame.",
+        "The two enemies are anonymous local workers and must not resemble Sato in face, hairstyle, age impression, or clothes."
+      ],
+      "backgroundPromptId": "talk-003-stage",
+      "backgroundPromptName": "霧伏駅前商店街と花屋",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第1話　花を買う商店街. Shared talk background: 霧伏駅前商店街と花屋. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　荷捌き口の死角 / セラパート. Summary: 駅前商店街の朝は、客よりも搬入の台車が先に音を作る。セラは花屋の脇道に積まれた空箱の陰から、二人の男の立ち位置を見ていた。軽トラックの荷台は空で、伝票の束には店名が入っていない… Key beats: 駅前商店街の朝は、客よりも搬入の台車が先に音を作る。セラは花屋の脇道に積まれた空箱の陰から、二人の男の立ち位置を見ていた。軽トラックの荷台は空で、伝票の束には店名が入っていない。狙いは供花の受け渡しを口実に、サトーを搬入口の奥へ折ることだった。 店先の客に声を掛ける役と、裏の勝手口で受ける役。地方の花屋は親切が導線になりやすい。墓参りの客ほど急がず、言われるまま裏へ回る。だからこそ、偽物は荷札より先に態度だけを本物へ寄せてくる。 男が「裏でまとめて」と声を張るより半歩先に、セラは給水用ホースのコックを開いた。細い水が台車の車輪の前へ走り、帽子の男が足元を見た瞬間、セラは車止めを外した花桶ラックを押し出す。重みのある車輪が男の脛を止め、そのまま膝を折らせた。 入口脇の男はとっさに店内へ踏み込もうとした。セラは包装紙の束を抱えたまま体を入れ替え、肘を外へ逃がしながら肩だけで向きを変える。花束用の平紐が一息で両手首をまとめ、男の体は陳列台の脚へ静かにもたれた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this shopping-street defense, Sera stays in her default maid-based guardian look rather than any seller disguise. Keep storefront signs, crate labels, delivery slips, and back-alley boards unreadable or out of frame. Render exactly one Sera in the frame. Keep Sato, if visible at all, as a tiny distant passerby near the shopfront, unaware and not looking at Sera. Do not depict Sato as restrained, involved in the struggle, or close to Sera in this frame. The two enemies are anonymous local workers and must not resemble Sato in face, hairstyle, age impression, or clothes. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  Show exactly one Sera. If Sato appears, keep him tiny and distant in the background. The restrained men are unrelated workers and must not resemble Sato.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-001-002-sera.webp"
+    },
+    {
+      "id": "scene-002-002-001-sato",
+      "title": "第1節　見晴らしのある墓前",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+      "chapterLabel": "第2章",
+      "talkKey": "chapter-02-talk-02",
+      "talkTitle": "第2話　高台の共同墓地",
+      "talkLabel": "第2話",
+      "sourceSummary": "静輪台共同墓地へ上がる坂は、駅前よりさらに風が細かった。紙に包んだ花を抱え直すたび、指先に残っていた冷えが今度は手の甲まで広がっていく。低い墓石がゆるく斜面に並び、その向こうに…",
+      "cast": [
+        "sato-episode"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [
+        "Keep the communal cemetery municipal and quiet, with many low grave markers across the slope at moderate density rather than a sparse lawn.",
+        "Avoid readable inscriptions on the foreground grave marker by turning the stone, cropping the face, or keeping any carving too small to read."
+      ],
+      "backgroundPromptId": "talk-004-stage",
+      "backgroundPromptName": "静輪台共同墓地の高台",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第2話　高台の共同墓地. Shared talk background: 静輪台共同墓地の高台. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　見晴らしのある墓前 / サトーパート. Summary: 静輪台共同墓地へ上がる坂は、駅前よりさらに風が細かった。紙に包んだ花を抱え直すたび、指先に残っていた冷えが今度は手の甲まで広がっていく。低い墓石がゆるく斜面に並び、その向こうに… Key beats: 静輪台共同墓地へ上がる坂は、駅前よりさらに風が細かった。紙に包んだ花を抱え直すたび、指先に残っていた冷えが今度は手の甲まで広がっていく。低い墓石がゆるく斜面に並び、その向こうに霧伏の町と遠い山並みが薄く開けていた。 「ここまで来ると、さすがにちゃんと冷たいな」息を深く吸うと、乾いた土と石の匂いが胸に落ちた。寺の鐘もない市営墓地は、来るたびに少しだけ広く見える。余計な音が少ないぶん、風の通り方までよく分かった。 来る途中、区画の分かれ目に折りたたみ柵とカラーコーンが出ていた。反射ベストの男が区画図を持ち、上段へ向かう人間を外周の砂利道へ流そうとしている。春先は補修や草刈りの前準備もあるのだろうと、サトーは中央の通路が空いているのを見てそのままいつもの段を上がった。 「静かに済むなら、そのほうがありがたい」両親の墓の前でしゃがみ込み、水を替え、花の高さを揃える。白を中心にして淡い色を少しだけ混ぜてもらったのは正解だった。派手ではないが、風の中ではそのくらいのほうが落ち着く。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Continuity notes: Keep the communal cemetery municipal and quiet, with many low grave markers across the slope at moderate density rather than a sparse lawn. Avoid readable inscriptions on the foreground grave marker by turning the stone, cropping the face, or keeping any carving too small to read. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-002-001-sato.webp"
+    },
+    {
+      "id": "scene-002-002-002-sera",
+      "title": "第2節　斜面通路の封じ手",
+      "partLabel": "セラパート",
+      "chapterTitle": "第2章　故郷の空気はまだ冷たい",
+      "chapterLabel": "第2章",
+      "talkKey": "chapter-02-talk-02",
+      "talkTitle": "第2話　高台の共同墓地",
+      "talkLabel": "第2話",
+      "sourceSummary": "共同墓地の上段は、風が抜けるぶん足音も散る。セラは管理水栓の陰から、偽の区画管理員二人を見ていた。ひとりは反射ベストと区画図、もうひとりは外周路の曲がり角で空の手押し車を持つ。…",
+      "cast": [
+        "sato-episode",
+        "sera-episode"
+      ],
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this cemetery defense, Sera stays in her default maid-based guardian look.",
+        "Keep many low grave markers visible across the slope so the cemetery feels fuller and more active than a sparse park.",
+        "Keep Sato distant and unaware at the grave area while Sera handles the fake maintenance crew off to the side.",
+        "Sato must be turned away from the incident, facing the grave, the town view, or another opposite direction rather than looking toward Sera or the attackers.",
+        "If Sato is visible, prefer a back view or clear side profile facing away from the action.",
+        "Do not include readable maps, warning boards, or vehicle markings."
+      ],
+      "backgroundPromptId": "talk-004-stage",
+      "backgroundPromptName": "静輪台共同墓地の高台",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　故郷の空気はまだ冷たい / 第2話　高台の共同墓地. Shared talk background: 静輪台共同墓地の高台. Background reference prompt: Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　斜面通路の封じ手 / セラパート. Summary: 共同墓地の上段は、風が抜けるぶん足音も散る。セラは管理水栓の陰から、偽の区画管理員二人を見ていた。ひとりは反射ベストと区画図、もうひとりは外周路の曲がり角で空の手押し車を持つ。… Key beats: 共同墓地の上段は、風が抜けるぶん足音も散る。セラは管理水栓の陰から、偽の区画管理員二人を見ていた。ひとりは反射ベストと区画図、もうひとりは外周路の曲がり角で空の手押し車を持つ。目的は簡単で、サトーを見通しの切れる外周の砂利道へ回し、その先の作業車脇で囲うことだった。 市営墓地は寺より親切だ。案内があれば人は従いやすく、柵とコーンがひとつあるだけで通路の意味が変わる。まして墓参りの客は静かに済ませたい。面倒を避けるほど、偽物には都合がいい。 区画図を持つ男が次の声掛けに向く前に、セラは水替え用の小型台車を斜面へそっと放した。空の台車は砂利を短く鳴らして男の足首へ当たり、体勢を崩したところへ、セラは進入規制用のベルトを手首ごと柵に通す。男が声を上げるより早く、喉元ではなく胸の前だけを押して支柱へ預けた。 外周の曲がり角にいたもうひとりは無線へ手を伸ばした。セラは長柄のほうきを横から滑らせ、手首を外へ払って端末を落とす。拾わせる前に肩を沈めて膝裏を崩し、管理用ホースの巻き取り帯で両腕をまとめた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this cemetery defense, Sera stays in her default maid-based guardian look. Keep many low grave markers visible across the slope so the cemetery feels fuller and more active than a sparse park. Keep Sato distant and unaware at the grave area while Sera handles the fake maintenance crew off to the side. Sato must be turned away from the incident, facing the grave, the town view, or another opposite direction rather than looking toward Sera or the attackers. If Sato is visible, prefer a back view or clear side profile facing away from the action. Do not include readable maps, warning boards, or vehicle markings. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  If Sato appears in frame, he should be facing away from the confrontation and remain visually uninvolved.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-002-002-sera.webp"
+    },
+    {
+      "id": "scene-003-001-001-sato",
+      "title": "第1節　庭に残る生活の気配",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第3章　無人の家に灯る気配",
+      "chapterLabel": "第3章",
+      "talkKey": "chapter-03-talk-01",
+      "talkTitle": "第1話　実家の夜",
+      "talkLabel": "第1話",
+      "sourceSummary": "杉名地区の家へ戻るころには、空は夕方の青みを薄く残したまま沈みかけていた。門扉の蝶番は軽く、庭の飛び石の間に雑草はほとんどない。妹夫婦が今回も手を入れてくれたのだと、玄関へ触れ…",
+      "cast": [
+        "sato-episode"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "backgroundPromptId": "talk-005-stage",
+      "backgroundPromptName": "杉名地区の実家の庭先",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第1話　実家の夜. Shared talk background: 杉名地区の実家の庭先. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　庭に残る生活の気配 / サトーパート. Summary: 杉名地区の家へ戻るころには、空は夕方の青みを薄く残したまま沈みかけていた。門扉の蝶番は軽く、庭の飛び石の間に雑草はほとんどない。妹夫婦が今回も手を入れてくれたのだと、玄関へ触れ… Key beats: 杉名地区の家へ戻るころには、空は夕方の青みを薄く残したまま沈みかけていた。門扉の蝶番は軽く、庭の飛び石の間に雑草はほとんどない。妹夫婦が今回も手を入れてくれたのだと、玄関へ触れる前から分かった。 「ちゃんと見てくれてるんだな」鍵を開けると、家の中の空気は古びていても湿っていない。台所の布巾は新しく畳まれ、居間の座布団もきれいに揃っていた。誰も住んでいないはずなのに、放っておかれた感じがしないのがありがたかった。 「一晩泊まるには、これで充分すぎる」荷物を置いて雨戸を少しだけ開ける。庭の隅には小さな青いじょうろと、結び直された支柱が残っていた。誰かの暮らしそのものではないが、手を掛けた時間だけはちゃんとここに残っている。 湯を沸かし、マグカップに茶を入れて縁側の脇へ腰を下ろす。外はもう冷えていたが、家の中までそのまま硬くなるわけではない。古い木の床はしんと静かで、遠くの車の音だけが薄く通る。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-001-001-sato.webp"
+    },
+    {
+      "id": "scene-003-001-002-sera",
+      "title": "第2節　庭木の陰の侵入者",
+      "partLabel": "セラパート",
+      "chapterTitle": "第3章　無人の家に灯る気配",
+      "chapterLabel": "第3章",
+      "talkKey": "chapter-03-talk-01",
+      "talkTitle": "第1話　実家の夜",
+      "talkLabel": "第1話",
+      "sourceSummary": "庭の裏手は、通りから一段だけ遅れて夜になる。セラは物置と生垣のあいだの細い影へ身を寄せ、二人の男の位置を見ていた。ひとりは物置脇で拘束帯と布を確認し、もうひとりは濡れ縁へ近い飛…",
+      "cast": [
+        "sato-episode",
+        "sera-episode"
+      ],
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this garden-night defense, Sera stays in her default maid-based guardian look.",
+        "Render exactly one Sera in the frame.",
+        "Keep the old family house, maintained garden, porch light, and blue-hour quiet clearly readable as the main mood.",
+        "Prefer not to show Sato at all in this frame.",
+        "If Sato appears at all, keep him inside the house only, not out in the garden.",
+        "If Sato appears, do not show his face or gaze. Only allow a back view or over-the-shoulder silhouette facing into the interior of the house and away from the garden.",
+        "Sato must not look toward Sera, the intruders, or the garden disturbance.",
+        "Do not depict Sato as involved in the struggle or physically close to Sera.",
+        "Keep mailbox plates, nameplates, utility labels, and any house numbers unreadable or out of frame.",
+        "The intruders are anonymous men and must not resemble Sato in face, age impression, hairstyle, or clothes."
+      ],
+      "backgroundPromptId": "talk-005-stage",
+      "backgroundPromptName": "杉名地区の実家の庭先",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第1話　実家の夜. Shared talk background: 杉名地区の実家の庭先. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　庭木の陰の侵入者 / セラパート. Summary: 庭の裏手は、通りから一段だけ遅れて夜になる。セラは物置と生垣のあいだの細い影へ身を寄せ、二人の男の位置を見ていた。ひとりは物置脇で拘束帯と布を確認し、もうひとりは濡れ縁へ近い飛… Key beats: 庭の裏手は、通りから一段だけ遅れて夜になる。セラは物置と生垣のあいだの細い影へ身を寄せ、二人の男の位置を見ていた。ひとりは物置脇で拘束帯と布を確認し、もうひとりは濡れ縁へ近い飛び石の手前で合図を待っている。狙いは、サトーが戸締まりか物音の確認で一歩外へ出た瞬間だった。 無人の家ほど、侵入側は家鳴りを味方だと思い込みやすい。古い庭の金具、木の枝、夜の冷え。どれも少し鳴って当たり前だから、半歩ぶんの異音を混ぜ込みやすい。 物置脇の男が立ち上がるより先に、セラは庭の散水ホースの留め具を一段だけ外した。巻かれていたホースが男の足首へ低く走り、体勢が前へ落ちたところへ、支柱用の結束ベルトを手首ごと物置の取っ手へ通す。声になる前の息だけが、布に短く詰まった。 濡れ縁側の男は反射で踏み込んだ。セラは壁に立ててあった物干し竿を横へ滑らせ、飛び石の間で足を止める。膝が落ちたところへ雨戸用の固定帯を肘から胸元まで回し、縁側の束石へ静かに預けた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this garden-night defense, Sera stays in her default maid-based guardian look. Render exactly one Sera in the frame. Keep the old family house, maintained garden, porch light, and blue-hour quiet clearly readable as the main mood. Prefer not to show Sato at all in this frame. If Sato appears at all, keep him inside the house only, not out in the garden. If Sato appears, do not show his face or gaze. Only allow a back view or over-the-shoulder silhouette facing into the interior of the house and away from the garden. Sato must not look toward Sera, the intruders, or the garden disturbance. Do not depict Sato as involved in the struggle or physically close to Sera. Keep mailbox plates, nameplates, utility labels, and any house numbers unreadable or out of frame. The intruders are anonymous men and must not resemble Sato in face, age impression, hairstyle, or clothes. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  Show exactly one Sera. Prefer no visible Sato. If Sato appears, keep him only as a tiny indoor back-view silhouette facing into the house and away from the confrontation, with no visible face. Preserve the quiet private homecoming mood of the house and garden.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-001-002-sera.webp"
+    },
+    {
+      "id": "scene-003-002-001-sato",
+      "title": "第1節　朝の冷気と出立",
+      "partLabel": "サトーパート",
+      "chapterTitle": "第3章　無人の家に灯る気配",
+      "chapterLabel": "第3章",
+      "talkKey": "chapter-03-talk-02",
+      "talkTitle": "第2話　翌朝の戸締まり",
+      "talkLabel": "第2話",
+      "sourceSummary": "翌朝、障子越しの光は思ったより白かった。布団を畳み、使った湯呑みを洗い、各部屋の窓を順に閉めていくと、一晩だけ借りた家の中が少しずつ元の静けさへ戻っていく。短い滞在でも、朝の手…",
+      "cast": [
+        "sato-episode"
+      ],
+      "referenceCharacterIds": [
+        "sato-episode"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "backgroundPromptId": "talk-006-stage",
+      "backgroundPromptName": "翌朝の実家前の道",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第2話　翌朝の戸締まり. Shared talk background: 翌朝の実家前の道. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the public-facing stage that Sato naturally notices first. Scene focus: 第1節　朝の冷気と出立 / サトーパート. Summary: 翌朝、障子越しの光は思ったより白かった。布団を畳み、使った湯呑みを洗い、各部屋の窓を順に閉めていくと、一晩だけ借りた家の中が少しずつ元の静けさへ戻っていく。短い滞在でも、朝の手… Key beats: 翌朝、障子越しの光は思ったより白かった。布団を畳み、使った湯呑みを洗い、各部屋の窓を順に閉めていくと、一晩だけ借りた家の中が少しずつ元の静けさへ戻っていく。短い滞在でも、朝の手順まで済ませると帰省はちゃんと形になる。 「一晩でも泊まると、家の音が戻るな」廊下のきしみも、洗面台の蛇口の重さも、昨夜より手に馴染んでいた。台所の隅には新しいスポンジが置かれ、玄関のたたきには泥の跡ひとつない。今回も世話になったと、顔の見えない妹夫婦へ心の中だけで頭を下げる。 庭へ出ると、朝の空気は墓地より少しやわらかいが、それでも東京よりは細い。植木の刈り込みは揃い、門柱の下に置かれたほうきも乾いていた。昨日の夜に聞いた物音の気配は、庭のどこにも残っていない。 「鍵を掛けると、ちゃんと帰った感じがする」玄関を閉め、戸締まりをひとつずつ確かめる。坂の下では白い軽ワゴンがしばらく停まり、作業着の男がクリップボードを持ったまま通りを見ていた。送迎か荷物回収か、あるいは朝の工事の段取りかもしれない。駅へ向かう道さえ空いていれば、そのくらいはどうでもよかった。 Use the supplied character reference images to preserve these canonical looks: sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-002-001-sato.webp"
+    },
+    {
+      "id": "scene-003-002-002-sera",
+      "title": "第2節　坂道の迎えを断つ",
+      "partLabel": "セラパート",
+      "chapterTitle": "第3章　無人の家に灯る気配",
+      "chapterLabel": "第3章",
+      "talkKey": "chapter-03-talk-02",
+      "talkTitle": "第2話　翌朝の戸締まり",
+      "talkLabel": "第2話",
+      "sourceSummary": "坂の途中に停めた白い軽ワゴンは、送迎車にしては荷室が空きすぎていた。後部の床には荷締めベルト、折りたたみ台車、毛布だけが揃い、客を乗せるための気配がない。ひとりはクリップボード…",
+      "cast": [
+        "sato-episode",
+        "sera-episode"
+      ],
+      "referenceCharacterIds": [
+        "sera-episode",
+        "sato-episode"
+      ],
+      "focusCharacterIds": [
+        "sera-episode"
+      ],
+      "continuityNotes": [
+        "For this departure-road defense, Sera stays in her default maid-based guardian look.",
+        "Render exactly one Sera in the frame.",
+        "Keep Sato near the gate or on the residential lane as a distant unaware figure facing away from the incident.",
+        "If Sato appears, prefer a back view or clear side profile that does not look toward Sera, the attackers, or the white light van.",
+        "Do not depict Sato as restrained, startled, or engaged with the confrontation.",
+        "Keep vehicle plates, clipboard text, delivery labels, and house numbers unreadable or out of frame.",
+        "The two attackers are unrelated men and must not resemble Sato."
+      ],
+      "backgroundPromptId": "talk-006-stage",
+      "backgroundPromptName": "翌朝の実家前の道",
+      "backgroundPrompt": "Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat.",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one cinematic 16:9 scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　無人の家に灯る気配 / 第2話　翌朝の戸締まり. Shared talk background: 翌朝の実家前の道. Background reference prompt: Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat. Preserve the same place, architecture, time of day, weather, lighting, and atmosphere unless the scene text explicitly changes them. Use the same talk-level setting as the shared stage, but show it from a hidden security-side, reverse angle, blind spot, rear approach, service path, or protected backside when appropriate. Scene focus: 第2節　坂道の迎えを断つ / セラパート. Summary: 坂の途中に停めた白い軽ワゴンは、送迎車にしては荷室が空きすぎていた。後部の床には荷締めベルト、折りたたみ台車、毛布だけが揃い、客を乗せるための気配がない。ひとりはクリップボード… Key beats: 坂の途中に停めた白い軽ワゴンは、送迎車にしては荷室が空きすぎていた。後部の床には荷締めベルト、折りたたみ台車、毛布だけが揃い、客を乗せるための気配がない。ひとりはクリップボードを持って門前へ上がる役、もうひとりは荷室の脇で受ける役だった。 住宅地の朝は、親切がいちばん効く。駅まで送りましょう、荷物だけ預かります、坂道ですから気をつけて。そんな声をひとつ差し込むだけで、人は歩幅をずらす。敵が欲しいのは、その半歩だった。 サトーが門へ向き直り、鍵を掛ける。背中が家のほうを向いている数秒で十分だった。クリップボードの男が声を掛けるより早く、セラは荷室の脇に垂れていたベルトをその足首へ滑らせ、引く。男の体が斜面側へ崩れたところへ、手首ごと荷室の蝶番へ一息で通した。 荷室側の男は踏み込む代わりに台車を押し出した。セラはその持ち手を逆に奪い、前輪だけを縁石へ掛ける。傾いた荷重で男の膝が止まった瞬間、肩を返して低い石塀へ預け、残ったベルトで前腕をまとめた。 Use the supplied character reference images to preserve these canonical looks: sera-episode: セラ. Keep her consistent with the episode-specific portrait generated from the canonical Sera image, including the visible cat-ear support-security unit and the restrained spring maid-based guardian silhouette. sato-episode: サトー. Keep him consistent with the episode-specific portrait generated from the canonical Sato image, including the subdued spring homecoming travel clothes and mature workwear silhouette. Compose for a 1920x1080 delivery, keep main subjects near the center, and preserve enough left/right safe margin so the image still reads well in portrait scrolling mode. Focus characters: sera-episode. Keep them clearly readable in the foreground or midground. Continuity notes: For this departure-road defense, Sera stays in her default maid-based guardian look. Render exactly one Sera in the frame. Keep Sato near the gate or on the residential lane as a distant unaware figure facing away from the incident. If Sato appears, prefer a back view or clear side profile that does not look toward Sera, the attackers, or the white light van. Do not depict Sato as restrained, startled, or engaged with the confrontation. Keep vehicle plates, clipboard text, delivery labels, and house numbers unreadable or out of frame. The two attackers are unrelated men and must not resemble Sato. Use the installment-specific episode portraits rather than the canonical portraits directly. For Sato-side images, Sato is dominant and any Sera presence must stay clearly separate and unreadable as a companion. For Sera-side images, Sera is dominant, the attacker must not resemble Sato, and Sato must remain an unaware background figure looking elsewhere. Compose for a 1920x1080 delivery with the main subjects near the center and safe margins on both sides so the image also works in portrait scrolling layouts.  If Sato appears in frame, he must be turned away from Sera and the attackers and remain visually uninvolved.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-002-002-sera.webp"
+    }
+  ]
+}

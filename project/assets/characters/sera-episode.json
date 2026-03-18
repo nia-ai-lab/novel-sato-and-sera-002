@@ -1,0 +1,20 @@
+{
+  "characterId": "sera-episode",
+  "name": "セラ",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T13:20:54.714Z",
+  "output": "project/assets/characters/sera-episode.png",
+  "rawOutput": "project/assets/characters/sera-episode.raw.jpg",
+  "referenceImage": "project/assets/characters/sera.png",
+  "fixedSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "prompt": "Create a photorealistic cinematic full-body character portrait for a modern web novel. Preserve silhouette clarity, costume readability, realistic anatomy, realistic fabric texture, and a consistent live-action visual language shared with all other generated assets.\nFull-body portrait of Sera for the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, silver-gray hair, golden eyes, disciplined expression, and visible cat-ear headband support-security unit from the canonical portrait. Keep her in her default signature look for this installment: a refined, practical maid-based guardian outfit adapted for chilly early-April outdoor movement, elegant layered black-and-white or muted monochrome silhouette, believable spring outer layer, practical shoes, subtle concealed restraint tools, calm and watchful posture, dignified rather than theatrical.\nKeep the whole character visible within frame when possible, especially head, key costume details, hands, silhouette, and signature accessories.\nFinal delivery will be center-cropped to 1080x1920. Keep the face, silhouette, and signature costume details near the center with safe margins.\nNegative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, deformed anatomy, extra limbs, duplicate body parts, cropped head, doll-like face, oversexualized maid, tactical armor, combat bodysuit, sci-fi combat suit, comedy chibi style, soft helpless expression, anime heroine look, doll face, giant visible weapons, frilly cosplay maid, fantasy waitress costume, revealing cosplay, train vendor uniform",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/02_characters.md",
+    "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+  ],
+  "responseTexts": []
+}

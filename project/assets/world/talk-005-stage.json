@@ -1,0 +1,19 @@
+{
+  "id": "talk-005-stage",
+  "name": "杉名地区の実家の庭先",
+  "talkKey": "chapter-03-talk-01",
+  "chapterLabel": "第3章",
+  "talkLabel": "第1話",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T13:23:38.363Z",
+  "output": "project/assets/world/talk-005-stage.webp",
+  "rawOutput": "project/assets/world/talk-005-stage.raw.jpg",
+  "prompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets. Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere. Final delivery will be cropped to 1920x1080. Keep the main focal area centered with safe margins and leave enough side information for widescreen composition. Negative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail, combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/01_plot.md",
+    "project/03_worldbuilding.md",
+    "project/04_chapter_outline.md"
+  ],
+  "responseTexts": []
+}

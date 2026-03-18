@@ -1,0 +1,51 @@
+{
+  "spec": {
+    "globalPrompt": "Create a photorealistic cinematic full-body character portrait for a modern web novel. Preserve silhouette clarity, costume readability, realistic anatomy, realistic fabric texture, and a consistent live-action visual language shared with all other generated assets.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, deformed anatomy, extra limbs, duplicate body parts, cropped head, doll-like face",
+    "fixedWidth": 1080,
+    "fixedHeight": 1920,
+    "outputDir": "project/assets/characters",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "characters": [
+    {
+      "id": "sato-episode",
+      "name": "サトー",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Full-body portrait of Sato for the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, age, ponytail, mustache, chin beard, and body impression from the canonical portrait. Redesign only the clothing, carry items, and mood to fit an early-April overnight homecoming to a chilly mountain-basin hometown for grave visiting: worn work jacket or field jacket, muted layers, dark denim, leather shoes, compact overnight travel bag, practical but tasteful Americana styling, calm and private expression, realistic Japanese middle-aged man, believable spring cold. Do not include any captions, title text, brand marks, labels, or readable signage anywhere in the frame.",
+      "negativePrompt": "young idol look, clean-shaven face, short hair, exaggerated bodybuilder muscles, fantasy armor, flashy race costume, office suit, school uniform, anime pretty-boy look, loud streetwear, tourist caricature, captions, subtitle text, logo, readable signage, visible brand print",
+      "referenceImage": "project/assets/characters/sato.png",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/02_characters.md",
+        "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+      ]
+    },
+    {
+      "id": "sera-episode",
+      "name": "セラ",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Full-body portrait of Sera for the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, silver-gray hair, golden eyes, disciplined expression, and visible cat-ear headband support-security unit from the canonical portrait. Keep her in her default signature look for this installment: a refined, practical maid-based guardian outfit adapted for chilly early-April outdoor movement, elegant layered black-and-white or muted monochrome silhouette, believable spring outer layer, practical shoes, subtle concealed restraint tools, calm and watchful posture, dignified rather than theatrical.",
+      "negativePrompt": "oversexualized maid, tactical armor, combat bodysuit, sci-fi combat suit, comedy chibi style, soft helpless expression, anime heroine look, doll face, giant visible weapons, frilly cosplay maid, fantasy waitress costume, revealing cosplay, train vendor uniform",
+      "referenceImage": "project/assets/characters/sera.png",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/02_characters.md",
+        "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+      ]
+    },
+    {
+      "id": "sera-vendor",
+      "name": "セラ",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Full-body portrait of Sera for chapter 1 of the installment 'Otsusan Sato's Casual Homecoming'. Preserve the exact face, silver-gray hair, golden eyes, disciplined expression, and visible cat-ear headband support-security unit from the canonical portrait. Redesign only the clothing and practical gear into a believable onboard seller disguise for a limited express train in chilly early April: neat tailored service vest or dress, restrained apron or trolley-service details, practical shoes, elegant posture, subtle hidden restraint tools, still faintly maid-inspired in structure, capable and composed. Do not add a coat, trench coat, cardigan, shawl, cape, or any extra outer layer; the vendor uniform alone must define the silhouette. Any sales trolley or carried goods must be plain and unbranded, with no readable labels, printed packaging, route names, or service text anywhere in the frame.",
+      "negativePrompt": "oversexualized maid, tactical armor, combat bodysuit, sci-fi combat suit, comedy chibi style, soft helpless expression, anime heroine look, doll face, giant visible weapons, indoor maid dress, fantasy waitress costume, revealing cosplay, logo, readable text, printed labels, branded cart, route sign, coat, trench coat, cardigan, cape, shawl, outerwear layer",
+      "referenceImage": "project/assets/characters/sera.png",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/02_characters.md",
+        "soudoku-novel-builder/references/ossan-sato-series-canon.md"
+      ]
+    }
+  ]
+}

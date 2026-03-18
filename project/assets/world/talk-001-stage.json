@@ -1,0 +1,19 @@
+{
+  "id": "talk-001-stage",
+  "name": "東央駅の特急ホーム",
+  "talkKey": "chapter-01-talk-01",
+  "chapterLabel": "第1章",
+  "talkLabel": "第1話",
+  "model": "gemini-3.1-flash-image-preview",
+  "generatedAt": "2026-03-18T14:04:31.222Z",
+  "output": "project/assets/world/talk-001-stage.webp",
+  "rawOutput": "project/assets/world/talk-001-stage.raw.jpg",
+  "prompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets. Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text. Final delivery will be cropped to 1920x1080. Keep the main focal area centered with safe margins and leave enough side information for widescreen composition. Negative prompt: anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail, combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+  "sourceRefs": [
+    "project/00_project_overview.md",
+    "project/01_plot.md",
+    "project/03_worldbuilding.md",
+    "project/04_chapter_outline.md"
+  ],
+  "responseTexts": []
+}

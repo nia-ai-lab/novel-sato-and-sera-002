@@ -1,0 +1,108 @@
+{
+  "spec": {
+    "globalPrompt": "Create a photorealistic cinematic environment image for a modern web novel. Emphasize atmosphere, lighting, believable architecture, realistic materials, and a unified live-action visual language shared with all other generated assets.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, character close-up, deformed architecture, low detail",
+    "fixedWidth": 1920,
+    "fixedHeight": 1080,
+    "outputDir": "project/assets/world",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "backgrounds": [
+    {
+      "id": "talk-001-stage",
+      "talkKey": "chapter-01-talk-01",
+      "chapterLabel": "第1章",
+      "talkLabel": "第1話",
+      "name": "東央駅の特急ホーム",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 1 talk 1. Show Toou Station's limited-express departure platform on an ordinary early-April morning in Tokyo: long-distance rail platform, silver express train waiting, modern columns, orderly safety markings, restrained commuter presence, quiet anticipation before a hometown trip, no dramatic incident visible, no readable station text.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    },
+    {
+      "id": "talk-002-stage",
+      "talkKey": "chapter-01-talk-02",
+      "chapterLabel": "第1章",
+      "talkLabel": "第2話",
+      "name": "特急みねかすみの車内",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 1 talk 2. Show the interior of the limited express Minekasumi during a daytime homecoming trip: comfortable reserved-seat carriage, large windows with early-spring landscape streaking by, overhead racks, aisle wide enough for a sales trolley, soft interior light, calm long-distance travel mood, no readable logos or text.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    },
+    {
+      "id": "talk-003-stage",
+      "talkKey": "chapter-02-talk-01",
+      "chapterLabel": "第2章",
+      "talkLabel": "第1話",
+      "name": "霧伏駅前商店街と花屋",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 2 talk 1. Show Kirifuse Station's front shopping street in a mountain-basin local town inspired by Matsumoto: low-rise shops, a flower shop facing the street, modest spring flowers, pale blue sky, lingering chill in early April, clean but lived-in pavement, quiet daytime local atmosphere, no readable shop signs.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    },
+    {
+      "id": "talk-004-stage",
+      "talkKey": "chapter-02-talk-02",
+      "chapterLabel": "第2章",
+      "talkLabel": "第2話",
+      "name": "静輪台共同墓地の高台",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 2 talk 2. Show Seirindai Communal Cemetery, a municipal hilltop graveyard in Kirifuse: broad sloped grounds, many low and compact Japanese grave markers spread across the hillside at moderate density, enough plots to feel like a large active communal cemetery, gentle curved roads and walkways, retaining walls, distant view over the town basin and mountains, early-April daylight, solemn but orderly mood, no temple buildings, no readable inscriptions. The overall layout should feel municipal and expansive but not sparse, closer to a well-used public cemetery with many low markers than to an empty memorial park.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat, temple gate, shrine, pagoda, tall crowded grave stones, dense vertical cemetery, narrow packed burial rows, empty lawn with only a few graves",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    },
+    {
+      "id": "talk-005-stage",
+      "talkKey": "chapter-03-talk-01",
+      "chapterLabel": "第3章",
+      "talkLabel": "第1話",
+      "name": "杉名地区の実家の庭先",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 3 talk 1. Show the old family house in Sugina district at blue hour: modest detached Japanese home, small maintained garden, quiet residential edge of a local town, signs of careful upkeep despite no current residents, early-spring night chill, dim porch light or window glow, calm and private atmosphere.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    },
+    {
+      "id": "talk-006-stage",
+      "talkKey": "chapter-03-talk-02",
+      "chapterLabel": "第3章",
+      "talkLabel": "第2話",
+      "name": "翌朝の実家前の道",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Photorealistic cinematic establishing environment for chapter 3 talk 2. Show the road outside Sato's family home on a crisp early-April morning in Kirifuse: narrow residential lane, low stone walls, modest garden edges, pale cold sunlight, packed travel mood before leaving, clear local sky, the sense of a quiet departure after an overnight stay, no readable text or obvious threat.",
+      "negativePrompt": "combat, action pose, readable text, collage, split panel, heavy crowd, obvious threat",
+      "sourceRefs": [
+        "project/00_project_overview.md",
+        "project/01_plot.md",
+        "project/03_worldbuilding.md",
+        "project/04_chapter_outline.md"
+      ]
+    }
+  ]
+}
