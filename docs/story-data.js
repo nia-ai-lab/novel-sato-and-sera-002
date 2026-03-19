@@ -5,7 +5,7 @@ window.STORY_DATA = {
   "genre": "現代スパイ日常コメディ",
   "slug": "sato-homecoming",
   "status": "planning",
-  "updatedAt": "2026-03-19T02:02:04.633Z",
+  "updatedAt": "2026-03-19T03:46:47.715Z",
   "titleDisplayLines": [
     "おっさんサトーの気ままな帰省",
     "",
@@ -13,7 +13,7 @@ window.STORY_DATA = {
   ],
   "titleImage": "./images/title/title-cover.webp",
   "titleImageAlt": "おっさんサトーの気ままな帰省 のタイトルビジュアル",
-  "generatedAt": "2026-03-19T02:02:04.634Z",
+  "generatedAt": "2026-03-19T03:46:47.723Z",
   "imageAspectRatio": "16:9",
   "talkCount": 6,
   "sceneCount": 12,
@@ -266,7 +266,7 @@ window.STORY_DATA = {
           "id": "scene-001-002-001-sato-beat-012",
           "index": 11,
           "kind": "narration",
-          "rawText": "紙カップを口元へ運ぶと、窓に映る自分の顔がほんの少し緩んでいた。花を買って、墓の前で少し喋って、家の戸を開ける。ただそれだけの一泊二日を、誰にも邪魔されたくはなかった。"
+          "rawText": "紙カップを口元へ運ぶと、窓に映る自分の顔がほんの少し緩んでいた。花を買って、墓の前で少し喋って、家の戸を開ける。ただそれだけの一泊二日が、静かに過ぎてくれればそれでよかった。"
         }
       ]
     },
