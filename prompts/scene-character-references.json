@@ -44,13 +44,28 @@
     }
   ],
   "sceneOverrides": {
+    "scene-001-002-001-sato": {
+      "referenceCharacterIds": [
+        "sato-episode",
+        "sera-vendor"
+      ],
+      "continuityNotes": [
+        "For this train-car Sato-side image, if the vendor appears, she stays in her onboard seller disguise rather than the default maid-based look.",
+        "Do not stage mutual eye contact, lingering exchange, or companion-like chemistry between Sato and the seller.",
+        "If the vendor appears, keep the interaction as a passing transactional moment: Sato should look at the cup, tray, or window direction rather than the seller's eyes.",
+        "The seller should be angled toward the cart, the aisle, or the service route rather than facing Sato as a personal conversation partner.",
+        "Keep the long-distance train interior and the calm travel mood dominant."
+      ],
+      "promptSuffix": "If the seller appears in frame, keep it as a brief passing service moment with no eye contact and no sense that Sato and the seller know each other."
+    },
     "scene-002-001-001-sato": {
       "referenceCharacterIds": [
         "sato-episode"
       ],
       "continuityNotes": [
         "Keep the flower shop storefront and surrounding street free of readable shop names, price boards, or other legible text.",
-        "Show Kirifuse as a chilly but clear local morning rather than a wintry scene."
+        "Show Kirifuse as a chilly but clear local morning rather than a wintry scene.",
+        "Do not depict any worker directly speaking to Sato. Any rear-side誘導 should read as peripheral loading motion or gestures directed elsewhere, not direct customer conversation."
       ]
     },
     "scene-002-001-002-sera": {
@@ -119,8 +134,18 @@
         "sera-vendor"
       ],
       "continuityNotes": [
-        "For this train talk, Sera is in her onboard seller disguise rather than her default maid-based look."
-      ]
+        "For this train talk, Sera is in her onboard seller disguise rather than her default maid-based look.",
+        "Render exactly one Sera in the frame.",
+        "Keep the confrontation several seat rows away from Sato rather than in Sato's immediate seat cluster.",
+        "If Sato appears, place him deep toward the far end of the carriage as a small distant seated figure, with many clear seatback rows between him and Sera.",
+        "Prefer Sato at least five or six seat rows away from the confrontation, not in the same near or mid foreground area.",
+        "Do not stage the restraint, struggle, or attacker in the same local seating bay as Sato.",
+        "It is acceptable for Sato to be barely visible or omitted if that helps maintain clear physical separation.",
+        "The attacker must not resemble Sato in any way: no ponytail, no mustache, no chin beard, no similar face shape, no similar age impression, and no similar travel clothes.",
+        "Prefer the attacker as an anonymous plainclothes man with a different silhouette from Sato, such as short hair or fully covered hair, clean-shaven face, and a generic commuter look.",
+        "Do not depict the attacker as a middle-aged man with Sato-like facial hair or hairstyle."
+      ],
+      "promptSuffix": "Show exactly one Sera. If Sato appears at all, keep him tiny and far down the carriage with many seat rows between him and the confrontation, or omit him entirely. The attacker must be clearly different from Sato and must not share Sato's ponytail, mustache, beard, face shape, or age impression."
     },
     "scene-003-001-002-sera": {
       "referenceCharacterIds": [

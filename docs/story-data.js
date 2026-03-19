@@ -5,7 +5,7 @@ window.STORY_DATA = {
   "genre": "現代スパイ日常コメディ",
   "slug": "sato-homecoming",
   "status": "planning",
-  "updatedAt": "2026-03-18T15:04:41.972Z",
+  "updatedAt": "2026-03-19T02:02:04.633Z",
   "titleDisplayLines": [
     "おっさんサトーの気ままな帰省",
     "",
@@ -13,7 +13,7 @@ window.STORY_DATA = {
   ],
   "titleImage": "./images/title/title-cover.webp",
   "titleImageAlt": "おっさんサトーの気ままな帰省 のタイトルビジュアル",
-  "generatedAt": "2026-03-18T15:04:41.975Z",
+  "generatedAt": "2026-03-19T02:02:04.634Z",
   "imageAspectRatio": "16:9",
   "talkCount": 6,
   "sceneCount": 12,
@@ -358,7 +358,7 @@ window.STORY_DATA = {
       "summary": "霧伏駅で扉が開いた瞬間、サトーは無意識に首をすくめた。車内でほどけていた肩の力が、指先からもう一度きゅっと締まる。東京を出たときと同じ四月なのに、こちらの空気はひとつ高いところ…",
       "image": "./images/episodes/scene-002-001-001-sato.webp",
       "alt": "第2章　故郷の空気はまだ冷たいの第1節　地元の春はまだ遠い サトーパートをイメージしたビジュアルカード",
-      "beatCount": 11,
+      "beatCount": 10,
       "beats": [
         {
           "id": "scene-002-001-001-sato-beat-001",
@@ -399,30 +399,24 @@ window.STORY_DATA = {
         {
           "id": "scene-002-001-001-sato-beat-007",
           "index": 6,
-          "kind": "dialogue",
-          "rawText": "「供花でしたら、裏でまとめてお渡しできます」"
+          "kind": "narration",
+          "rawText": "もうひとりの男は、作業手袋のまま入口脇に立ち、客の流れを見ながら裏口のほうへ何度か顎をしゃくっている。受け渡しの段取りなのか、搬入の都合なのかは分からないが、表の客まで巻き込むほど切羽詰まっている様子でもない。"
         },
         {
           "id": "scene-002-001-001-sato-beat-008",
           "index": 7,
-          "kind": "narration",
-          "rawText": "低い声が横から飛んできた。サトーはそちらを見てから、店先の白菊へ目を戻す。"
+          "kind": "dialogue",
+          "rawText": "「表が見られるなら、そのまま選ぶほうが楽だな」"
         },
         {
           "id": "scene-002-001-001-sato-beat-009",
           "index": 8,
-          "kind": "dialogue",
-          "rawText": "「表で選べるなら、そのほうが楽ですね」"
+          "kind": "narration",
+          "rawText": "地方の店は店先と裏口が近い。忙しい朝なら、受け渡しの気配が表まで混じることもあるのだろう。そう思いながら店内に入ると、奥から出てきた店主が手早く花を揃えてくれた。"
         },
         {
           "id": "scene-002-001-001-sato-beat-010",
           "index": 9,
-          "kind": "narration",
-          "rawText": "地方の店は店先と裏口が近い。忙しい朝なら、受け渡しを分けることもあるのだろう。そう思いながら店内に入ると、奥から出てきた店主が手早く花を揃えてくれた。"
-        },
-        {
-          "id": "scene-002-001-001-sato-beat-011",
-          "index": 10,
           "kind": "narration",
           "rawText": "包みを受け取ると、濡れた紙の冷たさが掌にすっと残った。東京ではもう忘れかけていた冷え方だが、嫌な感じはしない。これなら墓地の風も、きっといつもの霧伏のままだ。"
         }
